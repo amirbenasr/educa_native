@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel and Education Agency</title>
+    <!-- Add your CSS stylesheets and scripts here -->
+    <script
+      src="https://code.jquery.com/jquery-3.7.0.min.js"
+      integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <!-- Logo and navigation menu -->
+      <nav>
+        <button>Menu</button>
+
+        <div class="menu hide">
+          <header>
+            <span>
+              <h1>Educa</h1>
+
+              <button class="toggle-btn">X</button>
+            </span>
+          </header>
+          <ul class="mobile">
+            <li><a href="#featured-destinations">Destinations</a></li>
+            <li><a href="#programs-services">Programs & Services</a></li>
+            <li><a href="#testimonials">Testimonials</a></li>
+            <li><a href="#about-us">About Us</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <ul class="web">
+          <li><a href="#featured-destinations">Destinations</a></li>
+          <li><a href="#programs-services">Programs & Services</a></li>
+          <li><a href="#testimonials">Testimonials</a></li>
+          <li><a href="#about-us">About Us</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="hero" class="hero">
+        <!-- Hero image or video with a tagline -->
+        <video
+          class="video"
+          autoplay
+          loop
+          muted
+          alt="Travel Agency Hero Image"
+          src="https://res.cloudinary.com/dyw4slb0a/video/upload/v1684920302/video_n1hsqo.mp4"
+        ></video>
+        <img class="logo" src="./assets/logo_white.png" alt="" srcset="" />
+        <div class="banner">
+          <nav>
+            <ul>
+              <li>
+                <a href="#featured-destinations"> Destinations </a>
+              </li>
+              <li>
+                <a href="#featured-destinations"> Programs </a>
+              </li>
+              <li>
+                <a href="#featured-destinations"> Testimonials </a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </section>
+
+      <section id="featured-destinations">
+        <!-- Featured destinations with images, descriptions, and links -->
+        <small>30+</small>
+        <h2>Featured Destinations</h2>
+        <div class="destination">
+          <img src="./assets/time_square.jpeg" alt="Destination 1" />
+          <h3>New York</h3>
+          <p>
+            Discover the beauty of New York with its stunning landscapes and
+            rich cultural heritage.
+          </p>
+          <a href="destination1.html">Learn More</a>
+        </div>
+        <div class="destination">
+          <img src="./assets/california.jpeg" alt="Destination 2" />
+          <h3>California</h3>
+          <p>
+            Immerse yourself in the vibrant atmosphere of California, known for
+            its bustling markets and lively street life.
+          </p>
+          <a href="destination2.html">Learn More</a>
+        </div>
+      </section>
+
+      <section id="programs-services">
+        <!-- Programs and services offered -->
+        <h2>Our Programs & Services</h2>
+        <div class="program">
+          <img src="program1.jpg" alt="Program 1" />
+          <h3>Study Abroad Programs</h3>
+          <p>
+            Embark on a transformative journey of education and cultural
+            immersion with our study abroad programs.
+          </p>
+          <a href="study-abroad.html">Learn More</a>
+        </div>
+        <div class="program">
+          <img src="program2.jpg" alt="Program 2" />
+          <h3>Language Courses</h3>
+          <p>
+            Master a new language and gain a valuable skill by enrolling in our
+            language courses conducted by experienced instructors.
+          </p>
+          <a href="language-courses.html">Learn More</a>
+        </div>
+      </section>
+
+      <section id="testimonials">
+        <!-- Testimonials or reviews -->
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial">
+          <blockquote>
+            "I had an amazing experience with this agency. They took care of
+            everything and made my trip unforgettable!"
+          </blockquote>
+          <cite>John Doe</cite>
+        </div>
+        <div class="testimonial">
+          <blockquote>
+            User "I highly recommend this travel and education agency. Their
+            attention to detail and personalized service exceeded my
+            expectations."
+          </blockquote>
+          <cite>Jane Smith</cite>
+        </div>
+      </section>
+
+      <section id="call-to-action">
+        <!-- Call-to-action buttons -->
+        <h2>Ready to Explore?</h2>
+        <a href="booking.html" class="cta-button">Book Now</a>
+        <a href="contact.html" class="cta-button">Contact Us</a>
+      </section>
+
+      <section id="featured-blog-posts">
+        <!-- Featured blog posts or news -->
+        <h2>Latest Blog Posts</h2>
+        <div class="blog-post">
+          <img src="blog-post1.jpg" alt="Blog Post 1" />
+          <h3>10 Must-Visit UNESCO World Heritage Sites</h3>
+          <p>
+            Discover the top UNESCO World Heritage Sites around the globe that
+            should be on every traveler's bucket list.
+          </p>
+          <a href="blog/post1.html">Read More</a>
+        </div>
+        <div class="blog-post">
+          <img src="blog-post2.jpg" alt="Blog Post 2" />
+          <h3>Volunteering Abroad: Making a Difference</h3>
+          <p>
+            Learn about the impact of volunteering abroad and how you can
+            contribute to meaningful projects across different communities.
+          </p>
+          <a href="blog/post2.html">Read More</a>
+        </div>
+      </section>
+
+      <section id="about-us">
+        <!-- Information about your agency -->
+        <h2>About Our Agency</h2>
+        <p>
+          At our travel and education agency, we strive to create enriching
+          experiences that combine education, cultural immersion, and adventure.
+          With years of expertise and a passion for travel, we curate
+          exceptional programs that allow our clients to explore the world,
+          learn from diverse cultures, and broaden their horizons.
+        </p>
+        <p>
+          As a trusted partner, we are committed to delivering high-quality
+          services, personalized attention, and memorable experiences that
+          exceed our clients' expectations.
+        </p>
+      </section>
+
+      <section id="contact">
+        <!-- Contact information and form -->
+        <h2>Contact Us</h2>
+        <p>
+          If you have any inquiries or would like to learn more about our
+          programs, feel free to get in touch with us.
+        </p>
+        <div class="contact-info">
+          <p><strong>Phone:</strong> +123456789</p>
+          <p><strong>Email:</strong> info@travelandeducation.com</p>
+          <p><strong>Address:</strong> 123 Main Street, City, Country</p>
+        </div>
+        <form action="submit-form.php" method="POST">
+          <!-- Your contact form fields here -->
+        </form>
+      </section>
+    </main>
+    <footer>
+      <!-- Footer content -->
+      <p>&copy; 2023 Travel and Education Agency. All rights reserved.</p>
+    </footer>
+    <!-- Add your JavaScript code here -->
+    <script src="./js/actions.js"></script>
+  </body>
+</html>
